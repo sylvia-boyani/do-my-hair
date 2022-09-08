@@ -1,0 +1,83 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+:root{
+  --white: #FFF;
+  --bg: #aa336a;
+  --grey: #CCC;
+  --success-bg: #6BCB77;
+}
+.wrapper{
+  width: 100%;
+  max-width: 500px;
+  padding: 30px 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+.wrapper .content .logo img{
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto;
+}
+.wrapper .content .c1{
+  margin-top: 10px;
+  text-align: center;
+}
+.wrapper .content .c1 span{
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.wrapper .content .form{
+  margin-top: 30px;
+}
+.wrapper .content .form form input{
+  width: 100%;
+  padding: 20px 40px;
+  border: 1px solid var(--grey);
+  outline: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.wrapper .content .form form input:focus{
+  border-color: var(--bg);
+}
+.wrapper .content .form form button{
+  background: var(--bg);
+  color: var(--white);
+  font-weight: 500;
+  border: none;
+  font-size: 1em;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper .content .form form .eInput .icon{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: var(--grey);
+}
+.wrapper .content .form form .eInput{
+  position: relative;
+}
+.status{
+  padding: 20px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  margin: 10px 0 10px;
+  border-radius: 5px;
+  display: none;
+  text-align: center;
+}
+.status.active{
+  display: block;
+}
+.wrapper.hide{
+  display: none;
+}
