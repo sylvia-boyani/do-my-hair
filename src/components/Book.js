@@ -3,25 +3,40 @@ import './Book.css'
 const Book = () => {
     let Hotels = [
         {
-            name: "Hotel 1",
+            name: "Hairstyle 1",
             price: "100",
-            image: "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            image: "https://renystyles.com/wp-content/uploads/2018/04/06eae38a5834b7c25435c7154c04d6b3.jpg",
         },
 
         {
-            name: "Hotel 2",
+            name: "Hairstyle 2",
             price: "200",
             image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         },
         {
-            name: "Hotel 3",
+            name: "Hairstyle 3",
             price: "300",
-            image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            image: "https://i0.wp.com/www.momoafrica.com/wp-content/uploads/2017/12/hairstyle.jpg?w=425&ssl=1",
         },
         {
-            name: "Hotel 4",
+            name: "Hairstyle 4",
             price: "400",
-            image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            image: "https://i2.wp.com/www.momoafrica.com/wp-content/uploads/2018/02/hairstyle.4.jpg?w=387&ssl=1",
+        },
+        {
+            name: "Hairstyle 5",
+            price: "50",
+            image: "https://renystyles.com/wp-content/uploads/2018/04/2c2a91f425be2c4e9c8ae44c4fe5df6d-e1564315142924.jpg",
+        },
+        {
+            name: "Hairstyle 6",
+            price: "400",
+            image: "https://renystyles.com/wp-content/uploads/2018/04/9e019cd627d33bd8675557b49afe955c.jpg",
+        },
+        {
+            name: "Hairstyle 7",
+            price: "400",
+            image: "https://renystyles.com/wp-content/uploads/2018/04/fd586d1948d66aeec074c0eca2148944.jpg",
         },
     ]
     // console.log(Hotels[0].price);
@@ -169,6 +184,24 @@ const Book = () => {
                             <img src={Hotels[2].image} alt="hotel3" />
                             <div className="hotel_name">{Hotels[2].name}</div>
                             <div className="price">{'$' + Hotels[2].price}</div>
+                        </div>
+                        {/*  */}
+                        <div className="card" onClick={bookHotel4}>
+                            <img src={Hotels[3].image} alt="hotel4" />
+                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <div className="price">{'$' + Hotels[3].price}</div>
+                        </div>
+                        {/*  */}
+                        <div className="card" onClick={bookHotel4}>
+                            <img src={Hotels[3].image} alt="hotel4" />
+                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <div className="price">{'$' + Hotels[3].price}</div>
+                        </div>
+                        {/*  */}
+                        <div className="card" onClick={bookHotel4}>
+                            <img src={Hotels[3].image} alt="hotel4" />
+                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <div className="price">{'$' + Hotels[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
