@@ -25,7 +25,7 @@ import './Book.css'
 // const data = getDatabase(app);
 
 const Book = () => {
-    let Hotels = [
+    let Hairs = [
         {
             name: "Hairstyle 1",
             price: "100",
@@ -63,7 +63,7 @@ const Book = () => {
             image: "https://renystyles.com/wp-content/uploads/2018/04/fd586d1948d66aeec074c0eca2148944.jpg",
         },
     ]
-    console.log(Hotels[0].price);
+    console.log(Hairs[0].price);
     const bookHotel1 = (event) => {
         console.log(event);
         const imageTarget = document.querySelector("#targetImage");
@@ -72,9 +72,9 @@ const Book = () => {
         const cards = document.querySelector(".cards_box");
         const request = document.querySelector(".request");
 
-        imageTarget.src = Hotels[0].image;
-        nameTarget.innerHTML = Hotels[0].name;
-        priceTarget.innerHTML = '$' + Hotels[0].price;
+        imageTarget.src = Hairs[0].image;
+        nameTarget.innerHTML = Hairs[0].name;
+        priceTarget.innerHTML = '$' + Hairs[0].price;
         cards.style.display = "none";
         request.style.display = "block";
 
@@ -97,9 +97,9 @@ const Book = () => {
         const cards = document.querySelector(".cards_box");
         const request = document.querySelector(".request");
 
-        imageTarget.src = Hotels[1].image;
-        nameTarget.innerHTML = Hotels[1].name;
-        priceTarget.innerHTML = '$' + Hotels[1].price;
+        imageTarget.src = Hairs[1].image;
+        nameTarget.innerHTML = Hairs[1].name;
+        priceTarget.innerHTML = '$' + Hairs[1].price;
         cards.style.display = "none";
         request.style.display = "block";
 
@@ -121,9 +121,9 @@ const Book = () => {
         const cards = document.querySelector(".cards_box");
         const request = document.querySelector(".request");
 
-        imageTarget.src = Hotels[2].image;
-        nameTarget.innerHTML = Hotels[2].name;
-        priceTarget.innerHTML = '$' + Hotels[2].price;
+        imageTarget.src = Hairs[2].image;
+        nameTarget.innerHTML = Hairs[2].name;
+        priceTarget.innerHTML = '$' + Hairs[2].price;
         cards.style.display = "none";
         request.style.display = "block";
 
@@ -145,9 +145,9 @@ const Book = () => {
         const cards = document.querySelector(".cards_box");
         const request = document.querySelector(".request");
 
-        imageTarget.src = Hotels[3].image;
-        nameTarget.innerHTML = Hotels[3].name;
-        priceTarget.innerHTML = '$' + Hotels[3].price;
+        imageTarget.src = Hairs[3].image;
+        nameTarget.innerHTML = Hairs[3].name;
+        priceTarget.innerHTML = '$' + Hairs[3].price;
         cards.style.display = "none";
         request.style.display = "block";
 
@@ -193,45 +193,45 @@ const Book = () => {
                 <div className="cards">
                     <div className="cards_box">
                         <div className="card" onClick={bookHotel1}>
-                            <img src={Hotels[0].image} alt="hotel1" />
-                            <div className="hair_name">{Hotels[0].name}</div>
-                            <div className="price">{'$' + Hotels[0].price}</div>
+                            <img src={Hairs[0].image} alt="hairstyle 1" />
+                            <div className="hair_name">{Hairs[0].name}</div>
+                            <div className="price">{'$' + Hairs[0].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel2}>
-                            <img src={Hotels[1].image} alt="hotel2" />
-                            <div className="hair_name">{Hotels[1].name}</div>
-                            <div className="price">{'$' + Hotels[1].price}</div>
+                            <img src={Hairs[1].image} alt="hotel2" />
+                            <div className="hair_name">{Hairs[1].name}</div>
+                            <div className="price">{'$' + Hairs[1].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel3}>
-                            <img src={Hotels[2].image} alt="hotel3" />
-                            <div className="hair_name">{Hotels[2].name}</div>
-                            <div className="price">{'$' + Hotels[2].price}</div>
+                            <img src={Hairs[2].image} alt="hotel3" />
+                            <div className="hair_name">{Hairs[2].name}</div>
+                            <div className="price">{'$' + Hairs[2].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
-                            <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hair_name">{Hotels[3].name}</div>
-                            <div className="price">{'$' + Hotels[3].price}</div>
+                            <img src={Hairs[3].image} alt="hotel4" />
+                            <div className="hair_name">{Hairs[3].name}</div>
+                            <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
-                            <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hair_name">{Hotels[3].name}</div>
-                            <div className="price">{'$' + Hotels[3].price}</div>
+                            <img src={Hairs[3].image} alt="hotel4" />
+                            <div className="hair_name">{Hairs[3].name}</div>
+                            <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
-                            <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hair_name">{Hotels[3].name}</div>
-                            <div className="price">{'$' + Hotels[3].price}</div>
+                            <img src={Hairs[3].image} alt="hotel4" />
+                            <div className="hair_name">{Hairs[3].name}</div>
+                            <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
-                            <img src={Hotels[3].image} alt="style4" />
-                            <div className="hair_name">{Hotels[3].name}</div>
-                            <div className="price">{'$' + Hotels[3].price}</div>
+                            <img src={Hairs[3].image} alt="style4" />
+                            <div className="hair_name">{Hairs[3].name}</div>
+                            <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
                     </div>
                     <div className="request">
