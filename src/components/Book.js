@@ -50,7 +50,7 @@ const Book = () => {
         {
             name: "Hairstyle 5",
             price: "50",
-            image: "https://1.bp.blogspot.com/-ary8RgVttkU/X2mxORpIyaI/AAAAAAAA0dI/g8j8-KbxyNM9w1x9ZDS8UAafHQzi_NsGgCLcBGAsYHQ/s795/octo%2Bhairstyles%2B%2528344%2529.jpg",
+            image: "https://renystyles.com/wp-content/uploads/2018/04/2c2a91f425be2c4e9c8ae44c4fe5df6d-e1564315142924.jpg",
         },
         {
             name: "Hairstyle 6",
