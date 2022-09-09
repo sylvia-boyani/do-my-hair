@@ -217,19 +217,19 @@ const Book = () => {
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHtl4}>
-                            <img src={Hairs[3].image} alt="hairstyle 4" />
+                            <img src={Hairs[4].image} alt="hairstyle 4" />
                             <div className="hair_name">{Hairs[3].name}</div>
                             <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHtl4}>
-                            <img src={Hairs[3].image} alt="hairstyle 4" />
+                            <img src={Hairs[5].image} alt="hairstyle 4" />
                             <div className="hair_name">{Hairs[3].name}</div>
                             <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHtl4}>
-                            <img src={Hairs[3].image} alt="hairstyle 4" />
+                            <img src={Hairs[6].image} alt="hairstyle 4" />
                             <div className="hair_name">{Hairs[3].name}</div>
                             <div className="price">{'$' + Hairs[3].price}</div>
                         </div>
