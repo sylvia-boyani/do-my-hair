@@ -64,7 +64,7 @@ const Book = () => {
             image: "https://renystyles.com/wp-content/uploads/2018/04/fd586d1948d66aeec074c0eca2148944.jpg",
         },
     ]
-    // console.log(Hotels[0].price);
+    console.log(Hotels[0].price);
     const bookHotel1 = (event) => {
         console.log(event);
         const imageTarget = document.querySelector("#targetImage");
@@ -79,15 +79,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        writeUserData();
-        function writeUserData() {
-            const db = getDatabase();
-            set(ref(db, 'booking/'), {
-            HotelImage: Hotels[0].image,
-            HotelName: Hotels[0].name,
-            HotelPrice: '$' + Hotels[0].price,
-            });
-        }
+        // writeUserData();
+        // function writeUserData() {
+        //     const db = getDatabase();
+        //     set(ref(db, 'booking/'), {
+        //     HotelImage: Hotels[0].image,
+        //     HotelName: Hotels[0].name,
+        //     HotelPrice: '$' + Hotels[0].price,
+        //     });
+        // }
 
     }
     const bookHotel2 = (event) => {
@@ -104,15 +104,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        writeUserData();
-        function writeUserData() {
-            const db = getDatabase();
-            set(ref(db, 'booking/'), {
-            HotelImage: Hotels[1].image,
-            HotelName: Hotels[1].name,
-            HotelPrice: '$' + Hotels[1].price,
-            });
-        }
+    //     writeUserData();
+    //     function writeUserData() {
+    //         const db = getDatabase();
+    //         set(ref(db, 'booking/'), {
+    //         HotelImage: Hotels[1].image,
+    //         HotelName: Hotels[1].name,
+    //         HotelPrice: '$' + Hotels[1].price,
+    //         });
+    //     }
     }
     const bookHotel3 = (event) => {
         console.log(event);
@@ -128,16 +128,16 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        writeUserData();
-        function writeUserData() {
-            const db = getDatabase();
-            set(ref(db, 'booking/'), {
-            HotelImage: Hotels[2].image,
-            HotelName: Hotels[2].name,
-            HotelPrice: '$' + Hotels[2].price,
-            });
-        }
-    }
+    //     writeUserData();
+    //     function writeUserData() {
+    //         const db = getDatabase();
+    //         set(ref(db, 'booking/'), {
+    //         HotelImage: Hotels[2].image,
+    //         HotelName: Hotels[2].name,
+    //         HotelPrice: '$' + Hotels[2].price,
+    //         });
+    //     }
+     }
     const bookHotel4 = (event) => {
         console.log(event);
         const imageTarget = document.querySelector("#targetImage");
@@ -152,15 +152,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        writeUserData();
-        function writeUserData() {
-            const db = getDatabase();
-            set(ref(db, 'booking/'), {
-            HotelImage: Hotels[3].image,
-            HotelName: Hotels[3].name,
-            HotelPrice: '$' + Hotels[3].price,
-            });
-        }
+        // writeUserData();
+        // function writeUserData() {
+        //     const db = getDatabase();
+        //     set(ref(db, 'booking/'), {
+        //     HotelImage: Hotels[3].image,
+        //     HotelName: Hotels[3].name,
+        //     HotelPrice: '$' + Hotels[3].price,
+        //     });
+        // }
     }
     const request = (event) => {
         console.log(event);

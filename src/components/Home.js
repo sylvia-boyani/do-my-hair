@@ -42,16 +42,16 @@ const Home = () => {
         if(!book_date.value || !book_time.value || !leave_date.value || !leave_time.value){
             alert('Please fill all the fields');
         }else{
-            writeUserData();
-        function writeUserData() {
-            const db = getDatabase();
-            set(ref(db, 'data/'), {
-            bookingdate: book_date.value,
-            bookingtime: book_time.value,
-            leave_date: leave_date.value,
-            leave_time: leave_time.value,
-            });
-        }
+        //     writeUserData();
+        // function writeUserData() {
+        //     const db = getDatabase();
+        //     set(ref(db, 'data/'), {
+        //     bookingdate: book_date.value,
+        //     bookingtime: book_time.value,
+        //     leave_date: leave_date.value,
+        //     leave_time: leave_time.value,
+        //     });
+        // }
             alert('Your booking has been made');
             const BookPageDiv = document.querySelector('.box');
             const container = document.querySelector('.container');
