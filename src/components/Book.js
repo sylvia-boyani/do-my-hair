@@ -185,7 +185,7 @@ const Book = () => {
                     <div className="target">
                     <div className="card">
                         <img src="" id='targetImage' alt="" />
-                         <div className="hotel_name" id='targetName'></div>
+                         <div className="hair_name" id='targetName'></div>
                         <div className="price" id='targetPrice'></div>
                         </div>
                     </div>
@@ -194,13 +194,13 @@ const Book = () => {
                     <div className="cards_box">
                         <div className="card" onClick={bookHotel1}>
                             <img src={Hotels[0].image} alt="hotel1" />
-                            <div className="hotel_name">{Hotels[0].name}</div>
+                            <div className="hair_name">{Hotels[0].name}</div>
                             <div className="price">{'$' + Hotels[0].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel2}>
                             <img src={Hotels[1].image} alt="hotel2" />
-                            <div className="hotel_name">{Hotels[1].name}</div>
+                            <div className="hair_name">{Hotels[1].name}</div>
                             <div className="price">{'$' + Hotels[1].price}</div>
                         </div>
                         {/*  */}
@@ -212,13 +212,13 @@ const Book = () => {
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
                             <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <div className="hair_name">{Hotels[3].name}</div>
                             <div className="price">{'$' + Hotels[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
                             <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <div className="hair_name">{Hotels[3].name}</div>
                             <div className="price">{'$' + Hotels[3].price}</div>
                         </div>
                         {/*  */}
