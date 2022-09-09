@@ -58,7 +58,7 @@ const validateForm = (event) => {
    if(input1.classList.contains("valid") && input2.classList.contains("valid")){
      console.log('submitted');
      setTimeout(() => {
-      //  window.location.href = 'AirbnbHome';
+      //  window.location.href = 'Home';
       let container = document.querySelector(".container");
       let wrapper = document.querySelector(".wrapper");
       sethide(!hide + wrapper.classList.add("hide"));
