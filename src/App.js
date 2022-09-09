@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Home from './components/Home';
 import slylogo from './slylogo.png';
+import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
@@ -115,6 +116,24 @@ const validateForm = (event) => {
         status.classList.remove("active");
        }
      }
+  }
+
+  function HairList() {
+    const [hairs, setHairs] = useState([]);
+  
+    useEffect(() => {
+      fetch("http://localhost:9292")
+        .then((r) => r.json())
+        .then((games) => setHairs(hairs));
+    }, []);
+  
+    return (
+      <section>
+        {hairs.map((hair) => (
+          <HairStyle key={hair.id} hair={hair} />
+        ))}
+      </section>
+    );
   }
   return (
     <div className="App">

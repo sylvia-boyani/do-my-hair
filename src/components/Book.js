@@ -180,7 +180,7 @@ const Book = () => {
     return (
         <div className="box">
             <div className="content">
-                <div className="text">Find best hair-style</div>
+                <div className="text">Find  the best hair-style</div>
                 <div className="target">
                     <div className="target">
                     <div className="card">
