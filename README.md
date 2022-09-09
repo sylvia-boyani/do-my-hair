@@ -4,19 +4,17 @@
 
 ## Home Page
 
-![image](./public/images/Screenshot%20from%202022-07-31%2003-25-03.png)
+![image](./public/images/home.png)
 
 ## Booking Page
 
-![image](./public/images/Screenshot%20from%202022-07-31%2003-25-20.png)
+![image](./public/images/book.png)
 
 ## More Info
 
-![image](./public/images/Screenshot%20from%202022-07-31%2003-25-30.png)
+![image](./public/images/pick.png)
  
- ![image](./public/images/Screenshot%20from%202022-07-31%2003-25-36.png)
- ![image](./public/images/Screenshot%20from%202022-07-31%2003-25-49.png)
- ![image](./public/images/Screenshot%20from%202022-07-31%2003-26-21.png)
+ 
 
 ## Table of Content
 
