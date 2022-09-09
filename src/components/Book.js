@@ -50,17 +50,17 @@ const Book = () => {
         {
             name: "Hairstyle 5",
             price: "50",
-            image: "https://renystyles.com/wp-content/uploads/2018/04/2c2a91f425be2c4e9c8ae44c4fe5df6d-e1564315142924.jpg",
+            image: "https://1.bp.blogspot.com/-ary8RgVttkU/X2mxORpIyaI/AAAAAAAA0dI/g8j8-KbxyNM9w1x9ZDS8UAafHQzi_NsGgCLcBGAsYHQ/s795/octo%2Bhairstyles%2B%2528344%2529.jpg",
         },
         {
             name: "Hairstyle 6",
             price: "400",
-            image: "https://renystyles.com/wp-content/uploads/2018/04/9e019cd627d33bd8675557b49afe955c.jpg",
+            image: "https://content.latest-hairstyles.com/wp-content/uploads/bright-blonde-box-braids-for-black-ladies.jpg",
         },
         {
             name: "Hairstyle 7",
             price: "400",
-            image: "https://renystyles.com/wp-content/uploads/2018/04/fd586d1948d66aeec074c0eca2148944.jpg",
+            image: "https://content.latest-hairstyles.com/wp-content/uploads/balayage-river-faux-locs-for-black-women.jpg",
         },
     ]
     console.log(Hairs[0].price);
