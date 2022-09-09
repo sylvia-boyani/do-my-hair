@@ -74,13 +74,13 @@ const Home = () => {
             <div className="inputData">
               <input type="time" name="" id="book-time" />
             </div>
-            {/* <div className="txt">Date & Time you would like to leave</div>
+            <div className="txt">Date & Time For a retouch</div>
             <div className="inputData">
               <input type="date" name="" id="leave-date" />
             </div>
             <div className="inputData">
               <input type="time" name="" id="leave-time" />
-            </div> */}
+            </div>
             <div className="book">
                 <button type="submit">Book</button>
             </div>
