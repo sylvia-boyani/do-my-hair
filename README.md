@@ -4,15 +4,15 @@
 
 ## Home Page
 
-![image](./public/images/home.png)
+![image](./public/home.png)
 
 ## Booking Page
 
-![image](./public/images/book.png)
+![image](./public/book.png)
 
 ## More Info
 
-![image](./public/images/pick.png)
+![image](./public/pick.png)
  
  
 
