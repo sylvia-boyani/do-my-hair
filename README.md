@@ -1,4 +1,55 @@
-# Getting Started with Create React App
+# Hair-with-Flair
+
+## by sylvia boyani
+
+## Home Page
+
+![image](./public/images/Screenshot%20from%202022-07-31%2003-25-03.png)
+
+## Booking Page
+
+![image](./public/images/Screenshot%20from%202022-07-31%2003-25-20.png)
+
+## More Info
+
+![image](./public/images/Screenshot%20from%202022-07-31%2003-25-30.png)
+ 
+ ![image](./public/images/Screenshot%20from%202022-07-31%2003-25-36.png)
+ ![image](./public/images/Screenshot%20from%202022-07-31%2003-25-49.png)
+ ![image](./public/images/Screenshot%20from%202022-07-31%2003-26-21.png)
+
+## Table of Content
+
+- [Description](#description)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation Process](#installation-Process)
+- [Live Link](#Live-Link)
+- [Technology  Used](#technology-Used)
+- [Licence](#licence)
+- [Authors Info](#Authors-Info) -
+
+## Description
+
+  <p>This project is about a simple booking app, where a user logs in and books an appointment for their hair to be done.
+
+## Features
+As a user of the application,you will be able to :
+1. Log into the app.
+1. Book an appointment for their to be done and submit the entry.
+
+### Requirements
+
+- Access to  a computer or any other garget
+- Access to internet
+
+### Installation Process
+
+- Clone to their repo : git clone <https://github.com/sylvia-boyani/do-my-hair.git>
+- Unzip the downloaded files in a folder of choice.
+- open the folder and one can run npm start to start the app in any(chrome) browser.
+
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +65,49 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Heroku live link <https://phase2-project-sly.herokuapp.com/>
 
-### `npm run build`
+### Backend link <https://github.com/sylvia-boyani/phase-3-sinatra-react-project.git>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Technology used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React - to create the frontend part of the app.
+- Ruby - to create the backend of the project.
+       -uses active record and Sinatra for accessing the database.
+- Heroku - to host the react App.
+         - to create the API
+         - to host the backend(API) of the project.
 
-### `npm run eject`
+### License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Copyright (c) [2022] [sylvia boyani]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Authors' info
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to reach out via:
 
-## Learn More
+- LinkedIn Profile - [Sylvia Boyani](https://www.linkedin.com/in/sylvia-boyani)
+- Instagram - [boyani_sylvia](https://boyani_sylvia.intagram/)
+- twitter -[boyaniSylvia](https://twitter.com/BoyaniSylvia)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
