@@ -1,4 +1,29 @@
+/* eslint-disable no-unused-vars */
 import './Book.css'
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, set } from "firebase/database";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD5_v4FdF5LswBMz6sbhVUp5pHV0XXxB78",
+  authDomain: "hair-with-flair-237c8.firebaseapp.com",
+  databaseURL: "https://hair-with-flair-237c8-default-rtdb.firebaseio.com",
+  projectId: "hair-with-flair-237c8",
+  storageBucket: "hair-with-flair-237c8.appspot.com",
+  messagingSenderId: "1084069080219",
+  appId: "1:1084069080219:web:e24018370fbb0c619aea3e",
+  measurementId: "G-8MCPVDTLQH"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const data = getDatabase(app);
 
 const Book = () => {
     let Hotels = [
@@ -54,15 +79,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        // writeUserData();
-        // function writeUserData() {
-        //     const db = getDatabase();
-        //     set(ref(db, 'booking/'), {
-        //     HotelImage: Hotels[0].image,
-        //     HotelName: Hotels[0].name,
-        //     HotelPrice: '$' + Hotels[0].price,
-        //     });
-        // }
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            HotelImage: Hotels[0].image,
+            HotelName: Hotels[0].name,
+            HotelPrice: '$' + Hotels[0].price,
+            });
+        }
 
     }
     const bookHotel2 = (event) => {
@@ -79,15 +104,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        // writeUserData();
-        // function writeUserData() {
-        //     const db = getDatabase();
-        //     set(ref(db, 'booking/'), {
-        //     HotelImage: Hotels[1].image,
-        //     HotelName: Hotels[1].name,
-        //     HotelPrice: '$' + Hotels[1].price,
-        //     });
-        // }
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            HotelImage: Hotels[1].image,
+            HotelName: Hotels[1].name,
+            HotelPrice: '$' + Hotels[1].price,
+            });
+        }
     }
     const bookHotel3 = (event) => {
         console.log(event);
@@ -103,15 +128,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        // writeUserData();
-        // function writeUserData() {
-        //     const db = getDatabase();
-        //     set(ref(db, 'booking/'), {
-        //     HotelImage: Hotels[2].image,
-        //     HotelName: Hotels[2].name,
-        //     HotelPrice: '$' + Hotels[2].price,
-        //     });
-        // }
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            HotelImage: Hotels[2].image,
+            HotelName: Hotels[2].name,
+            HotelPrice: '$' + Hotels[2].price,
+            });
+        }
     }
     const bookHotel4 = (event) => {
         console.log(event);
@@ -127,15 +152,15 @@ const Book = () => {
         cards.style.display = "none";
         request.style.display = "block";
 
-        // writeUserData();
-        // function writeUserData() {
-        //     const db = getDatabase();
-        //     set(ref(db, 'booking/'), {
-        //     HotelImage: Hotels[3].image,
-        //     HotelName: Hotels[3].name,
-        //     HotelPrice: '$' + Hotels[3].price,
-        //     });
-        // }
+        writeUserData();
+        function writeUserData() {
+            const db = getDatabase();
+            set(ref(db, 'booking/'), {
+            HotelImage: Hotels[3].image,
+            HotelName: Hotels[3].name,
+            HotelPrice: '$' + Hotels[3].price,
+            });
+        }
     }
     const request = (event) => {
         console.log(event);
@@ -182,7 +207,7 @@ const Book = () => {
                         {/*  */}
                         <div className="card" onClick={bookHotel3}>
                             <img src={Hotels[2].image} alt="hotel3" />
-                            <div className="hotel_name">{Hotels[2].name}</div>
+                            <div className="hair_name">{Hotels[2].name}</div>
                             <div className="price">{'$' + Hotels[2].price}</div>
                         </div>
                         {/*  */}
@@ -200,13 +225,13 @@ const Book = () => {
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
                             <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <div className="hair_name">{Hotels[3].name}</div>
                             <div className="price">{'$' + Hotels[3].price}</div>
                         </div>
                         {/*  */}
                         <div className="card" onClick={bookHotel4}>
-                            <img src={Hotels[3].image} alt="hotel4" />
-                            <div className="hotel_name">{Hotels[3].name}</div>
+                            <img src={Hotels[3].image} alt="style4" />
+                            <div className="hair_name">{Hotels[3].name}</div>
                             <div className="price">{'$' + Hotels[3].price}</div>
                         </div>
                     </div>
