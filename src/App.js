@@ -1,16 +1,40 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState } from 'react';  
 import Home from './components/Home';
+// import Home1 from './components/Home1'
 import slylogo from './slylogo.png';
-import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 
 function App() {  
+
+  // useEffect(() => {
+  //   fetch('http://localhost.9292/hairstyles')
+  //   .then(response =>  {
+  //     if (response.ok ){
+  //       return response.json()
+  //     }
+  //     throw response;
+  //   })
+  //   .then(data => {
+  //     setData (data);
+  //   })
+  //   .catch(error => {
+  //     console.error("Error fetching data: ", error);
+  //     setError(error);
+  //   })
+  //   .finally(()=> {
+  //     setLoading(false);
+  //   })
+  // }, [])
+    
+  // if (loading) return "Loading....";
+  // if (error) return "Error!"
 const [hide, sethide] = useState(true);
 const [show, setshow] = useState(true);
 const validateForm = (event) => {
+
   event.preventDefault();
   const input1 = document.querySelector("#input1");
   const input2 = document.querySelector("#input2");
@@ -117,25 +141,9 @@ const validateForm = (event) => {
        }
      }
   }
+  
 
-  function HairList() {
-    const [hairs, setHairs] = useState([]);
-  
-    useEffect(() => {
-      fetch("http://localhost:9292")
-        .then((r) => r.json())
-        .then((games) => setHairs(hairs));
-    }, []);
-  
-    return (
-      <section>
-        {hairs.map((hair) => (
-          <HairStyle key={hair.id} hair={hair} />
-        ))}
-      </section>
-    );
-  }
-  return (
+   return (
     <div className="App">
       <Home />
       <div className="wrapper">
@@ -144,7 +152,7 @@ const validateForm = (event) => {
             <img src={slylogo} alt="" />
           </div>
           <div className="c1">
-            <span>Become an member & be on flick always!</span>
+            <span>Book An Appointment Now, And Get Your Hair Done Today!</span>
           </div>
           <div className="form">
             <div className="status"></div>
