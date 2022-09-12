@@ -1,4 +1,5 @@
 # Hair-with-Flair
+### App deploy link: https://hair-with-flair.netlify.app/
 
 ## by sylvia boyani
 
